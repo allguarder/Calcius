@@ -1,0 +1,932 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 4</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="result.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="result.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="result.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="result.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 279</value>
+  </data>
+  <data name="result.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 54</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="result.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="result.Text" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="&gt;&gt;result.Name" xml:space="preserve">
+    <value>result</value>
+  </data>
+  <data name="&gt;&gt;result.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;result.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;result.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <metadata name="but1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="but1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="but1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 219</value>
+  </data>
+  <data name="but1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 54</value>
+  </data>
+  <data name="but1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="but1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;but1.Name" xml:space="preserve">
+    <value>but1</value>
+  </data>
+  <data name="&gt;&gt;but1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;but1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;but1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <metadata name="but2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="but2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="but2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 219</value>
+  </data>
+  <data name="but2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 54</value>
+  </data>
+  <data name="but2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="but2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;but2.Name" xml:space="preserve">
+    <value>but2</value>
+  </data>
+  <data name="&gt;&gt;but2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;but2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;but2.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <metadata name="but4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="but4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="but4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 159</value>
+  </data>
+  <data name="but4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 54</value>
+  </data>
+  <data name="but4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="but4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;but4.Name" xml:space="preserve">
+    <value>but4</value>
+  </data>
+  <data name="&gt;&gt;but4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;but4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;but4.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <metadata name="but6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="but6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="but6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 159</value>
+  </data>
+  <data name="but6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 54</value>
+  </data>
+  <data name="but6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="but6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;but6.Name" xml:space="preserve">
+    <value>but6</value>
+  </data>
+  <data name="&gt;&gt;but6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;but6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;but6.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <metadata name="but8.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="but8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="but8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 100</value>
+  </data>
+  <data name="but8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 54</value>
+  </data>
+  <data name="but8.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="but8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;but8.Name" xml:space="preserve">
+    <value>but8</value>
+  </data>
+  <data name="&gt;&gt;but8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;but8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;but8.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <metadata name="but9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="but9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="but9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 100</value>
+  </data>
+  <data name="but9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 54</value>
+  </data>
+  <data name="but9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="but9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;but9.Name" xml:space="preserve">
+    <value>but9</value>
+  </data>
+  <data name="&gt;&gt;but9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;but9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;but9.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <metadata name="but7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="but7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="but7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 100</value>
+  </data>
+  <data name="but7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 54</value>
+  </data>
+  <data name="but7.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="but7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;but7.Name" xml:space="preserve">
+    <value>but7</value>
+  </data>
+  <data name="&gt;&gt;but7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;but7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;but7.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <metadata name="but5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="but5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="but5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 159</value>
+  </data>
+  <data name="but5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 54</value>
+  </data>
+  <data name="but5.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="but5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;but5.Name" xml:space="preserve">
+    <value>but5</value>
+  </data>
+  <data name="&gt;&gt;but5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;but5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;but5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="but3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="but3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="but3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 219</value>
+  </data>
+  <data name="but3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 54</value>
+  </data>
+  <data name="but3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="but3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;but3.Name" xml:space="preserve">
+    <value>but3</value>
+  </data>
+  <data name="&gt;&gt;but3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;but3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;but3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="but0.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="but0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="but0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 279</value>
+  </data>
+  <data name="but0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 54</value>
+  </data>
+  <data name="but0.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="but0.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;but0.Name" xml:space="preserve">
+    <value>but0</value>
+  </data>
+  <data name="&gt;&gt;but0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;but0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;but0.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="butslesh.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="butslesh.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="butslesh.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butslesh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 128</value>
+  </data>
+  <data name="butslesh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 25</value>
+  </data>
+  <data name="butslesh.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="butslesh.Text" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="&gt;&gt;butslesh.Name" xml:space="preserve">
+    <value>butslesh</value>
+  </data>
+  <data name="&gt;&gt;butslesh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butslesh.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butslesh.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="butminus.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="butminus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="butminus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butminus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 189</value>
+  </data>
+  <data name="butminus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 24</value>
+  </data>
+  <data name="butminus.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="butminus.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;butminus.Name" xml:space="preserve">
+    <value>butminus</value>
+  </data>
+  <data name="&gt;&gt;butminus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butminus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butminus.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="butplus.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="butplus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="butplus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butplus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 159</value>
+  </data>
+  <data name="butplus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 24</value>
+  </data>
+  <data name="butplus.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="butplus.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;butplus.Name" xml:space="preserve">
+    <value>butplus</value>
+  </data>
+  <data name="&gt;&gt;butplus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butplus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butplus.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="butO.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="butO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="butO.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 100</value>
+  </data>
+  <data name="butO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 24</value>
+  </data>
+  <data name="butO.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="butO.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="&gt;&gt;butO.Name" xml:space="preserve">
+    <value>butO</value>
+  </data>
+  <data name="&gt;&gt;butO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butO.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butO.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="butI2I.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="butI2I.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="butI2I.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butI2I.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 249</value>
+  </data>
+  <data name="butI2I.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 24</value>
+  </data>
+  <data name="butI2I.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="butI2I.Text" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="&gt;&gt;butI2I.Name" xml:space="preserve">
+    <value>butI2I</value>
+  </data>
+  <data name="&gt;&gt;butI2I.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butI2I.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butI2I.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="butI1I.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="butI1I.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="butI1I.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="butI1I.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 219</value>
+  </data>
+  <data name="butI1I.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 24</value>
+  </data>
+  <data name="butI1I.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="butI1I.Text" xml:space="preserve">
+    <value>(</value>
+  </data>
+  <data name="&gt;&gt;butI1I.Name" xml:space="preserve">
+    <value>butI1I</value>
+  </data>
+  <data name="&gt;&gt;butI1I.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;butI1I.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;butI1I.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="but000.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="but000.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="but000.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 279</value>
+  </data>
+  <data name="but000.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 54</value>
+  </data>
+  <data name="but000.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="but000.Text" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="&gt;&gt;but000.Name" xml:space="preserve">
+    <value>but000</value>
+  </data>
+  <data name="&gt;&gt;but000.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;but000.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;but000.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="Cleaner.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Cleaner.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="Cleaner.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Cleaner.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 40</value>
+  </data>
+  <data name="Cleaner.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 24</value>
+  </data>
+  <data name="Cleaner.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Cleaner.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="&gt;&gt;Cleaner.Name" xml:space="preserve">
+    <value>Cleaner</value>
+  </data>
+  <data name="&gt;&gt;Cleaner.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cleaner.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Cleaner.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="point.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="point.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
+  </data>
+  <data name="point.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="point.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 70</value>
+  </data>
+  <data name="point.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 24</value>
+  </data>
+  <data name="point.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="point.Text" xml:space="preserve">
+    <value>•</value>
+  </data>
+  <data name="&gt;&gt;point.Name" xml:space="preserve">
+    <value>point</value>
+  </data>
+  <data name="&gt;&gt;point.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;point.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;point.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="display.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="display.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.25pt</value>
+  </data>
+  <data name="display.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 6</value>
+  </data>
+  <data name="display.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="display.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 87</value>
+  </data>
+  <data name="display.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;display.Name" xml:space="preserve">
+    <value>display</value>
+  </data>
+  <data name="&gt;&gt;display.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;display.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;display.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <metadata name="tickdriver.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>172, 17</value>
+  </metadata>
+  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>274, 17</value>
+  </metadata>
+  <data name="notifyIcon1.Text" xml:space="preserve">
+    <value>notifyIcon1</value>
+  </data>
+  <data name="notifyIcon1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="STNGS.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="STNGS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="STNGS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="STNGS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 6</value>
+  </data>
+  <data name="STNGS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 28</value>
+  </data>
+  <data name="STNGS.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="STNGS.Text" xml:space="preserve">
+    <value>۞</value>
+  </data>
+  <data name="&gt;&gt;STNGS.Name" xml:space="preserve">
+    <value>STNGS</value>
+  </data>
+  <data name="&gt;&gt;STNGS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;STNGS.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;STNGS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>256, 336</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        P2FVBBUtIlt2AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Calcius</value>
+  </data>
+  <data name="&gt;&gt;tickdriver.Name" xml:space="preserve">
+    <value>tickdriver</value>
+  </data>
+  <data name="&gt;&gt;tickdriver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notifyIcon1.Name" xml:space="preserve">
+    <value>notifyIcon1</value>
+  </data>
+  <data name="&gt;&gt;notifyIcon1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
